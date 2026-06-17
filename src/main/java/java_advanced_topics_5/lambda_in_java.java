@@ -1,7 +1,7 @@
 package java_advanced_topics_5;
 
 interface hello{
-	void sound();
+	void soun();
 }
 /*
  What is a Lambda Expression?
@@ -29,6 +29,6 @@ public static void main(String[] args) {
 	hello h=()->{
 		System.out.println("THis is lambda expression");
 	};
-	h.sound();
+	h.soun();
 }
 }
